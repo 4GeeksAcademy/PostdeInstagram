@@ -21,17 +21,24 @@ body{
     margin-right: 5px;
 }
 
-.name{
-    margin-top: -19px;
-    margin-left: 34px;
-    
+.html{
+    margin: auto 0;
 }
+
+.fa-brands{
+    margin: auto 0.5em;
+}
+
+/* .fa-solid{
+    
+} */
 
 .fa-solid{
     font-size: x-large;
     margin-left: auto;
     margin-right: 15px;
-    margin-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 img{
@@ -39,14 +46,22 @@ img{
 }
 
 .icons{
+    display: flex;
     font-size: 29px;
     margin-top: 10px;
     margin-left: 15px;
 }
 
-.fa-bookmark{
-    margin-left: 230px;
+.icons > i {
+    margin-right: 3px;
 }
+
+.bookmark{
+   margin-left: auto;
+   margin-right: 10px;
+}
+
+
 
 .text{
     margin: 10px;
